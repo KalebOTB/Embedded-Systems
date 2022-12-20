@@ -7,3 +7,5 @@ The parts used for this system include:
 Texas Instruments SN74HC151N 8-Line To 1-Line Data Selector/Multiplexer,
 
 Texas Instruments MSP430FR2476 Mixed-Signal Microcontroller
+
+Liquid Level Sensor Float Switch (x8)
