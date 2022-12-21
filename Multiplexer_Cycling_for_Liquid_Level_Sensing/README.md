@@ -14,10 +14,9 @@ This is a very simple design allowing us to monitor multiple liquid level sensor
 - Texas Instruments [MSP430FR2476](https://www.ti.com/product/MSP430FR2476/part-details/MSP430FR2476TRHAR) Mixed-Signal Microcontroller
 
 - [Liquid Level Sensor](https://www.mouser.com/ProductDetail/Littelfuse/59630-1-T-05-A?qs=sGAEpiMZZMs29kr3d%252BndI%252Bz%252B5qY7%2FswXh13rrbQA2SA%3D) Float Switch (x8)[^1]
-- 10k Ohm Resistor (x8)
+- 10k Ohm Pull-down Resistor (x8)
 
 #### Necessary Connections
-
 ![Hardware connections image...](https://github.com/KalebOTB/Embedded-Systems/blob/main/Multiplexer_Cycling_for_Liquid_Level_Sensing/Circuit.png)
 
 ### Software
