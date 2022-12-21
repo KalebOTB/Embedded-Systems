@@ -28,15 +28,13 @@ int main(void)
 //Selection line cycling to determine if liquid levels are low.
 char cycle_selection_outputs(){
     char cycle_sel_out = 0;
-    unsigned char sel[8] = {0b00000000,0b00000001,0b00000010,0b00000011,
-                            0b00000100,0b00000101,0b00000110,0b00000111};
     unsigned char i=0;
-    P4OUT |= BIT5;  //Enable multiplexers
-    for(i;i<8;i++){ //Cycle through selection lines
-        P2OUT &= ~(BIT0 | BIT1 | BIT2); //Clear selection lines
-        P2OUT |= sel[i];    //Set selection lines with current selection
+    P4OUT |= BIT5;  					//Enable multiplexers
+    for(i;i<8;i++){ 					//Cycle through selection lines
+        P2OUT &= ~(BIT0 | BIT1 | BIT2); 		//Clear selection lines
+        P2OUT |= i;    					//Set selection lines with current selection
         cycle_sel_out |= (((P4IN & BIT1) >> 1) << i);   //Checking and storing output
     }
-    P4OUT &= ~BIT5; //Disable multiplexer
+    P4OUT &= ~BIT5; 					//Disable multiplexer
     return cycle_sel_out;
 }
