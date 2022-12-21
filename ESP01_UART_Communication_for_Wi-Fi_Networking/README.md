@@ -2,7 +2,7 @@
 This design provides Wi-Fi capabilities to the microcontroller allowing us to communicate with user devices over Wi-Fi.
 
 #### Basic Understandings
-- [GPIO](https://en.wikipedia.org/wiki/General-purpose_input/output)
+- [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
 
 ### Hardware
 
