@@ -39,7 +39,7 @@ P4SEL1 &= ~(BIT1 | BIT5);
 ```
 
 #### Multiplexer Cycling
-This function iterates over each possible multiplexer selection, recording the value of each sensor, 0 (open switch) or 1 (closed switch)
+This function iterates over each possible multiplexer selection, recording the value of each sensor, 0 (open switch) or 1 (closed switch). 8-bits are returned denoting the results of the cycle.
 ```
 //Selection line cycling to determine if liquid levels are low.
 char cycle_selection_outputs(){
