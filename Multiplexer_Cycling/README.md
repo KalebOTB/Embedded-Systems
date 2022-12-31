@@ -17,7 +17,7 @@ This is a very simple design allowing us to monitor multiple liquid level sensor
 - 10k Ohm Pull-down Resistor (x8)
 
 #### Necessary Connections
-![Hardware connections image...](https://github.com/KalebOTB/Embedded-Systems/blob/main/Multiplexer_Cycling_for_Liquid_Level_Sensing/Circuit.png)
+![Hardware connections image...](https://github.com/KalebOTB/Embedded-Systems/blob/main/Multiplexer_Cycling/Circuit.png)
 
 ### Software
 Full example code can be found [here](https://github.com/KalebOTB/Embedded-Systems/blob/main/Multiplexer_Cycling_for_Liquid_Level_Sensing/main.c)
