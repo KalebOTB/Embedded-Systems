@@ -6,8 +6,8 @@ Texas Instruments [MSP430](https://www.ti.com/microcontrollers-mcus-processors/m
 
 Design Considerations:
 - Self Sustaining Greenhouse
-  - [Multiplexer Cycling for Liquid Level Sensing](https://github.com/KalebOTB/Embedded-Systems/tree/main/Multiplexer_Cycling_for_Liquid_Level_Sensing)
-  - [ESP01 UART Communication for Wi-Fi networking](https://github.com/KalebOTB/Embedded-Systems/tree/main/ESP01_UART_Communication_for_Wi-Fi_Networking)
+  - [Multiplexer Cycling](https://github.com/KalebOTB/Embedded-Systems/tree/main/Multiplexer_Cycling)
+  - [WiFi Module Serial Communication](https://github.com/KalebOTB/Embedded-Systems/tree/main/WiFi_Module_Serial_Communication)
   - Work in progress...
 
 
