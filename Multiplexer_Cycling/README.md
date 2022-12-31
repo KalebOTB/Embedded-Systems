@@ -1,4 +1,4 @@
-# Multiplexer Cycling for Liquid Level Sensing
+# Multiplexer Cycling
 
 This is a very simple design allowing us to monitor multiple liquid level sensors. Using a mutliplexer reduces the number of pins necessary from the microcontroller saving us pins for alternative functionalities.
 
