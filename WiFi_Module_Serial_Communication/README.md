@@ -1,4 +1,4 @@
-# ESP01 UART Communication for Wi-Fi Networking
+# WiFi_Module_Serial_Communication
 This design provides Wi-Fi capabilities to the microcontroller allowing us to communicate with user devices over Wi-Fi.
 
 #### Basic Understandings
