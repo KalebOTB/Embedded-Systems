@@ -1,4 +1,4 @@
-# WiFi Module_Serial Communication
+# WiFi Module Serial Communication
 This design provides Wi-Fi capabilities to the microcontroller allowing us to communicate with user devices over Wi-Fi.
 
 #### Basic Understandings
