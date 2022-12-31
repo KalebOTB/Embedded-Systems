@@ -12,7 +12,7 @@ This design provides Wi-Fi capabilities to the microcontroller allowing us to co
 - Texas Instruments [MSP430FR2476](https://www.ti.com/product/MSP430FR2476/part-details/MSP430FR2476TRHAR) Mixed-Signal Microcontroller
 
 #### Necessary Connections
-![Hardware connections image...](https://github.com/KalebOTB/Embedded-Systems/blob/main/ESP01_UART_Communication_for_Wi-Fi_Networking/Circuit.png)
+![Hardware connections image...](https://github.com/KalebOTB/Embedded-Systems/blob/main/WiFi_Module_Serial_Communication/Circuit.png)
 
 ### Software
 Full example code can be found [here]
