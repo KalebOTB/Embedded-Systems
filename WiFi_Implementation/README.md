@@ -3,6 +3,7 @@ This design provides Wi-Fi capabilities to the microcontroller allowing us to co
 
 #### Basic Understandings
 - [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
+- [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
 ### Hardware
 
@@ -15,4 +16,13 @@ This design provides Wi-Fi capabilities to the microcontroller allowing us to co
 ![Hardware connections image...](https://github.com/KalebOTB/Embedded-Systems/blob/main/WiFi_Implementation/Circuit.png)
 
 ### Software
+
+#### ESP8266-01
+
+[Arduino IDE](https://www.arduino.cc/en/software) was used for rapid development on the ESP-01. The main functions are as follows:
+- TCP/IP implemented as HTTP web server
+  - Allows us to monitor and configure values over UART from our microcontroller in a user friendly format
+- UART communication with our MSP430 microcontroller
+  - Communication work horse. UART will allow us to change and read values stored in the MSP430. The MSP430 will be the microcontroller that is connected to the sensors and controlling different aspects of the greenhouse.
+
 Full example code can be found [here]
