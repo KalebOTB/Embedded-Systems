@@ -5,7 +5,7 @@ This repository contains hardware and software components of different systems I
 Design Considerations:
 - Self Sustaining Greenhouse
   - [Multiplexer Cycling](https://github.com/KalebOTB/Embedded-Systems/tree/main/Multiplexer_Cycling)
-  - [WiFi Module Serial Communication](https://github.com/KalebOTB/Embedded-Systems/tree/main/WiFi_Module_Serial_Communication) (WIP)
+  - [WiFi Implementation](https://github.com/KalebOTB/Embedded-Systems/tree/main/WiFi_Implementation) (WIP)
   - [Decoder Selection](https://github.com/KalebOTB/Embedded-Systems) (WIP)
 
 
