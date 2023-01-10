@@ -5,6 +5,9 @@ This design provides Wi-Fi capabilities to the microcontroller allowing us to co
 - [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
 - [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
+#### Useful Readings
+- [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer/blob/master/README.md)
+
 ### Hardware
 
 #### Part Selection
