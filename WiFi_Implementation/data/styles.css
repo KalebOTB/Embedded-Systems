@@ -73,5 +73,6 @@ table{
 	border-collapse:collapse;
 }
 td, tr {
+	height:46px;
 	text-align:left;
 	border: 1px solid lightgray;

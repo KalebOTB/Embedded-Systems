@@ -3,6 +3,43 @@
 		<title>Greenhouse</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0;"/>
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script>
+		setInterval(function(){
+			increaseTime();
+		},100);
+		/*function increaseTime(){
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+				  document.getElementById("adc_val").innerHTML =
+				  this.responseText;
+				}
+			};
+			
+		}*/
+		function increaseTime(){
+			var timeList = document.getElementsByClassName("time");
+			for(var i=0;i<timeList.length;i++){
+				var time = timeList[i].dataset.time;
+				timeList[i].dataset.time = +time + 100;
+				time = Math.ceil(timeList[i].dataset.time/1000);
+				if(time >= 60) time = time/60;
+				else{
+					timeList[i].innerHTML = Math.ceil(time)+"s ago";
+					continue;
+				}if(time >= 60) time = time/60;
+				else{
+					timeList[i].innerHTML = Math.ceil(time)+"m ago";
+					continue;
+				}if(time >= 24) time = time/24;
+				else{
+					timeList[i].innerHTML = Math.ceil(time)+"h ago";
+					continue;
+				}
+				timeList[i].innerHTML = Math.ceil(time)+"d ago";
+			}
+		}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -25,17 +62,42 @@
 					<tr>
 						<td>pH</td>
 						<td>%pH%</td>
-						<td>%pH_time%</td>
+						<td>%pHTime%</td>
 					</tr>
 					<tr>
 						<td>TDS</td>
 						<td>%tds%</td>
-						<td>%tds_time%</td>
+						<td>%tdsTime%</td>
 					</tr>
 					<tr>
-						<td>P Reservoir</td>
-						<td>-1</td>
-						<td>-1</td>
+						<td>Phosphorus Reservoir</td>
+						<td>%phosphorus%</td>
+						<td>%phosphorusTime%</td>
+					</tr>
+					<tr>
+						<td>Nitrogen Reservoir</td>
+						<td>%nitrogen%</td>
+						<td>%nitrogenTime%</td>
+					</tr>
+					<tr>
+						<td>Potassium Reservoir</td>
+						<td>%potassium%</td>
+						<td>%potassiumTime%</td>
+					</tr>
+					<tr>
+						<td>Calcium Reservoir</td>
+						<td>%calcium%</td>
+						<td>%calciumTime%</td>
+					</tr>
+					<tr>
+						<td>Magnesium Reservoir</td>
+						<td>%magnesium%</td>
+						<td class="time" data-time=""+%magnesiumTime%+""></td>
+					</tr>
+					<tr>
+						<td>Magnesium Reservoir</td>
+						<td>%magnesium%</td>
+						<td class="time" data-time="115204"></td>
 					</tr>
 				</table>
 			</div>
